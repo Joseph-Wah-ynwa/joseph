@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    color: #767676;
+}
+
+/*-----------------------*/
+
+
+/*-------Reusable----------*/
+
+
+/*---------------------*/
+
+.logo-head {
+    font-family: 'Satisfy', cursive;
+    color: crimson;
+}
+
+/*-----------------------*/
+
+
+/*-------heading----------*/
+
+
+/*---------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/f1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+header i{
+    font-size: 200%;
+}
+header .heading {
+    width: 98%;
+    margin: 30px auto;
+    color: aliceblue
+}
+.h-child {
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+    margin-top: -100px;
+    background-color: aliceblue;
+}
+.h-child i {
+    font-size: 400%;
+}
+
+/*-----------------------*/
+
+
+/*-------experience----------*/
+
+
+/*---------------------*/
+
+.experience {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/f5.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+}
+
+/*-----------------------*/
+
+
+/*-------Health----------*/
+
+
+/*---------------------*/
+
+.shadow {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+/*
+.shadow :hover{
+   box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+*/
+
+/*-----------------------*/
+
+
+/*-------App----------*/
+
+
+/*---------------------*/
+
+.app a {
+    color: white;
+}
+.app i {
+    font-size: 250%;
+}
+
+/*-----------------------*/
+
+
+/*-------Showcase----------*/
+
+
+/*---------------------*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+/*    overflow: hidden;*/
+}
+.photo {
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+.showcase img{
+    transform: scale(1.15);
+    transition: all 0.5s;
+    opacity: 0.5;
+}
+.showcase img:hover{
+    transform: scale(1);
+}
+
+@media only screen and (max-width:480px) {
+    .gallery {
+        grid-template-columns: auto auto;
+    }
+}

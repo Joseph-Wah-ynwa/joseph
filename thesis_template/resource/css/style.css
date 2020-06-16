@@ -1,0 +1,15 @@
+*{
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+.course{
+     transition: all 0.3s;
+}
+.course:hover{
+    
+    transform: scale(1.05);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Suez One', serif;
+}

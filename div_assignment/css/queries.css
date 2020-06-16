@@ -1,0 +1,25 @@
+
+@media only screen and (max-width:480px){
+    .h_nav ul li a {
+    font-size: 80%;
+}
+    .objective .icon {
+    position: absolute;
+    top: -30px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 250%;
+    color: #fff;
+    left: auto;
+        right: 30px;
+}
+    .ob_box {
+ 
+    margin-top: 35px;
+}
+    .objective h2 {
+        margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
